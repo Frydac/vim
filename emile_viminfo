@@ -1,0 +1,400 @@
+# Dit viminfo-bestand is aangemaakt door Vim 7.4.
+# Bewerken is toegestaan, maar doe het met aandacht!
+
+# Waarde van 'encoding' bij het opslaan van dit bestand
+*encoding=latin1
+
+
+# hlsearch on (H) or off (h):
+~h
+# Laatste zoekpatroon:
+~Msle0~/\<configs\>
+
+# Laatste Vervangen zoekpatroon:
+~MSle0&platfrms
+
+# Laatst vervangingsstring:
+$pltfrms
+
+# Opdrachtregel Historie (jongste naar oudste):
+:noh
+:wq
+:e $MYVIMRC
+:bd
+:e $MYV
+:set incsearch
+:q
+:w! premake_wwise_integration.lua
+:w premake_wwise_integration.lua
+:w
+:%s/platfrms/pltfrms/gc
+:w premake_wwise_integration_backup_3.lua
+:w premake_wwise_integration_backup_2.lua
+
+# Zoekstring Historie (jongste naar oudste):
+? \<configs\>
+?/confi
+?/TARGET_
+? \<TARGET_MSVS\>
+?/platfrms
+? platfrms
+? \<lib_base\>
+
+# Expressie Historie (jongste naar oudste):
+
+# Invoerregel Historie (jongste naar oudste):
+
+# Invoerregel Historie (jongste naar oudste):
+
+# Registers:
+"0	CHAR	0
+	dummie_key
+"1	LINE	0
+	
+"2	LINE	0
+	-- lua tables containig data, used for loop later
+"3	LINE	0
+	configs =
+	pltfrms = 
+"4	LINE	0
+	
+	
+"5	LINE	0
+	    -- specify different targets for all possible configurations
+	
+	    -- local lib_base = "./base_path/"
+	    -- local lib_debug = "debug"
+	    -- local lib_release = "release"
+	    -- local lib_x32 = "_x32"
+	    -- local lib_x64 = "_x64"
+	    -- local lib_optimized = "_opt"
+	    -- local wwise_integration = "wwise_integration_"
+	    -- local current_filename_part = ""
+	-- 
+	    -- filter{"configurations:Debug", "platforms:x32"}
+	        -- current_filename_part = lib_debug .. lib_x32
+	        -- libdirs{path.join(lib_base, current_filename_part) }
+	        -- targetname (wwise_integration .. current_filename_part)
+	    -- filter{"configurations:Debug", "platforms:x64"}
+	        -- current_filename_part = lib_debug .. lib_x64
+	        -- libdirs{path.join(lib_base, current_filename_part) }
+	        -- targetname (wwise_integration .. current_filename_part)
+	-- 
+	    -- filter{"configurations:Debug_Optimized", "platforms:x32"}
+	        -- current_filename_part = lib_debug .. lib_x32 .. lib_optimized
+	        -- libdirs{path.join(lib_base, current_filename_part) }
+	        -- targetname (wwise_integration .. current_filename_part)
+	    -- -- filter{"configurations:Debug_Optimized", "platforms:x64"}
+	        -- current_filename_part = lib_debug .. lib_x64 .. lib_optimized
+	        -- libdirs{path.join(lib_base, current_filename_part) }
+	        -- targetname (wwise_integration .. current_filename_part)
+	-- 
+	    -- filter{"configurations:Release", "platforms:x32"}
+	        -- current_filename_part = lib_release .. lib_x32
+	        -- libdirs{path.join(lib_base, current_filename_part) }
+	        -- targetname (wwise_integration .. current_filename_part)
+	    -- filter{"configurations:Release", "platforms:x64"}
+	        -- current_filename_part = lib_release .. lib_x64
+	        -- libdirs{path.join(lib_base, current_filename_part) }
+	        -- targetname (wwise_integration .. current_filename_part)
+	-- 
+	    -- filter{"configurations:Release_Optimized", "platforms:x32"}
+	        -- current_filename_part = lib_release .. lib_x32 .. lib_optimized
+	        -- libdirs{path.join(lib_base, current_filename_part) }
+	        -- targetname (wwise_integration .. current_filename_part)
+	    -- filter{"configurations:Release_Optimized", "platforms:x64"}
+	        -- current_filename_part = lib_release .. lib_x64 .. lib_optimized
+	        -- libdirs{path.join(lib_base, current_filename_part) }
+	        -- targetname (wwise_integration .. current_filename_part)
+"6	LINE	0
+	            local config_str =             local pltfrm_str = 
+"7	CHAR	0
+	"platforms:" .. platform
+	
+"8	CHAR	0
+	"configurations:" .. config
+	
+"9	LINE	0
+	    
+""-	CHAR	0
+	platfrms
+
+# File marks:
+'0  61  8  ~\Documents\auro-wwise-plugins_2\src\app\wwise_integration\build\premake_wwise_integration.lua
+'1  16  0  ~\vimfiles\vimrc
+'2  1  0  C:\git\auroengine\AuroEngine\V1\CMakeLists.txt
+'3  28  0  C:\git\auroengine\AuroEngine\V1\cmake\msvs_toolchain.cmake
+'4  73  20  ~\Documents\auro-wwise-plugins_2\src\app\wwise_integration\build\premake_wwise_integration.lua
+'5  81  48  ~\Documents\auro-wwise-plugins_2\src\app\wwise_integration\build\premake_wwise_integration.lua
+'6  2  79  ~\Documents\auro-wwise-plugins_2\src\app\wwise_integration\README
+'7  55  0  ~\Documents\auro-wwise-plugins_2\src\app\wwise_integration\build\premake_wwise_integration_backup_3.lua
+'8  79  50  ~\Documents\auro-wwise-plugins_2\src\app\wwise_integration\build\premake_wwise_integration.lua
+'9  75  0  ~\Documents\auro-wwise-plugins_2\src\app\wwise_integration\build\premake_wwise_integration.lua
+
+# Jumplist (newest first):
+-'  61  8  ~\Documents\auro-wwise-plugins_2\src\app\wwise_integration\build\premake_wwise_integration.lua
+-'  80  36  ~\Documents\auro-wwise-plugins_2\src\app\wwise_integration\build\premake_wwise_integration.lua
+-'  6  20  ~\Documents\auro-wwise-plugins_2\src\app\wwise_integration\build\premake_wwise_integration.lua
+-'  2  0  ~\Documents\auro-wwise-plugins_2\src\app\wwise_integration\build\premake_wwise_integration.lua
+-'  1  0  ~\Documents\auro-wwise-plugins_2\src\app\wwise_integration\build\premake_wwise_integration.lua
+-'  16  0  ~\vimfiles\vimrc
+-'  1  0  ~\vimfiles\vimrc
+-'  64  0  C:\git\auroengine\AuroEngine\V1\CMakeLists.txt
+-'  2  18  C:\git\auroengine\AuroEngine\V1\-MiniBufExplorer-
+-'  55  7  C:\git\auroengine\AuroEngine\V1\CMakeLists.txt
+-'  129  37  C:\git\auroengine\AuroEngine\V1\CMakeLists.txt
+-'  128  4  C:\git\auroengine\AuroEngine\V1\CMakeLists.txt
+-'  98  7  C:\git\auroengine\AuroEngine\V1\CMakeLists.txt
+-'  94  5  C:\git\auroengine\AuroEngine\V1\CMakeLists.txt
+-'  91  3  C:\git\auroengine\AuroEngine\V1\CMakeLists.txt
+-'  87  5  C:\git\auroengine\AuroEngine\V1\CMakeLists.txt
+-'  84  3  C:\git\auroengine\AuroEngine\V1\CMakeLists.txt
+-'  80  5  C:\git\auroengine\AuroEngine\V1\CMakeLists.txt
+-'  77  3  C:\git\auroengine\AuroEngine\V1\CMakeLists.txt
+-'  57  7  C:\git\auroengine\AuroEngine\V1\CMakeLists.txt
+-'  1  0  C:\git\auroengine\AuroEngine\V1\CMakeLists.txt
+-'  28  0  C:\git\auroengine\AuroEngine\V1\cmake\msvs_toolchain.cmake
+-'  1  0  C:\git\auroengine\AuroEngine\V1\cmake\msvs_toolchain.cmake
+-'  73  20  ~\Documents\auro-wwise-plugins_2\src\app\wwise_integration\build\premake_wwise_integration.lua
+-'  81  48  ~\Documents\auro-wwise-plugins_2\src\app\wwise_integration\build\premake_wwise_integration.lua
+-'  7  22  ~\Documents\auro-wwise-plugins_2\src\app\wwise_integration\build\premake_wwise_integration.lua
+-'  3  6  ~\Documents\auro-wwise-plugins_2\src\app\wwise_integration\build\premake_wwise_integration.lua
+-'  49  0  ~\Documents\auro-wwise-plugins_2\src\app\wwise_integration\build\premake_wwise_integration.lua
+-'  2  79  ~\Documents\auro-wwise-plugins_2\src\app\wwise_integration\README
+-'  1  0  ~\Documents\auro-wwise-plugins_2\src\app\wwise_integration\README
+-'  55  0  ~\Documents\auro-wwise-plugins_2\src\app\wwise_integration\build\premake_wwise_integration_backup_3.lua
+-'  1  0  ~\Documents\auro-wwise-plugins_2\src\app\wwise_integration\build\premake_wwise_integration_backup_3.lua
+-'  79  50  ~\Documents\auro-wwise-plugins_2\src\app\wwise_integration\build\premake_wwise_integration.lua
+-'  88  0  ~\Documents\auro-wwise-plugins_2\src\app\wwise_integration\build\premake_wwise_integration.lua
+-'  77  0  ~\Documents\auro-wwise-plugins_2\src\app\wwise_integration\build\premake_wwise_integration.lua
+-'  55  4  ~\Documents\auro-wwise-plugins_2\src\app\wwise_integration\build\premake_wwise_integration.lua
+-'  66  5  ~\Documents\auro-wwise-plugins_2\src\app\wwise_integration\build\premake_wwise_integration.lua
+-'  75  0  ~\Documents\auro-wwise-plugins_2\src\app\wwise_integration\build\premake_wwise_integration.lua
+-'  76  4  ~\Documents\auro-wwise-plugins_2\src\app\wwise_integration\build\premake_wwise_integration.lua
+-'  38  24  ~\vimfiles\vimrc
+-'  1  0  ~\Documents\auro-wwise-plugins_2\src\app\wwise_integration\build\build_all.bat
+-'  1  0  ~\Documents\auro-wwise-plugins_2\src\app\wwise_integration\build\test.bat
+-'  5  80  ~\Documents\auro-wwise-plugins_2\src\app\wwise_integration\build\build_all.bat
+-'  1  0  ~\Documents\auro-wwise-plugins_2\src\app\wwise_integration\build\test.bat
+-'  1  0  ~\Documents\auro-wwise-plugins_2\src\app\wwise_integration\build\build_all.bat
+-'  1  0  ~\Documents\auro-wwise-plugins_2\src\app\wwise_integration\build\test.bat
+-'  5  80  ~\Documents\auro-wwise-plugins_2\src\app\wwise_integration\build\build_all.bat
+-'  1  0  ~\Documents\auro-wwise-plugins_2\src\app\wwise_integration\build\test.bat
+-'  1  0  ~\Documents\auro-wwise-plugins_2\src\app\wwise_integration\build\build_all.bat
+-'  1  0  ~\Documents\auro-wwise-plugins_2\src\app\wwise_integration\build\test.bat
+-'  5  80  ~\Documents\auro-wwise-plugins_2\src\app\wwise_integration\build\build_all.bat
+-'  1  0  ~\Documents\auro-wwise-plugins_2\src\app\wwise_integration\build\test.bat
+-'  1  0  ~\Documents\auro-wwise-plugins_2\src\app\wwise_integration\build\build_all.bat
+-'  1  0  ~\Documents\auro-wwise-plugins_2\src\app\wwise_integration\build\test.bat
+-'  5  80  ~\Documents\auro-wwise-plugins_2\src\app\wwise_integration\build\build_all.bat
+-'  1  0  ~\Documents\auro-wwise-plugins_2\src\app\wwise_integration\build\test.bat
+-'  1  0  ~\Documents\auro-wwise-plugins_2\src\app\wwise_integration\build\build_all.bat
+-'  1  0  ~\Documents\auro-wwise-plugins_2\src\app\wwise_integration\build\test.bat
+-'  5  80  ~\Documents\auro-wwise-plugins_2\src\app\wwise_integration\build\build_all.bat
+-'  1  0  ~\Documents\auro-wwise-plugins_2\src\app\wwise_integration\build\test.bat
+-'  1  0  ~\Documents\auro-wwise-plugins_2\src\app\wwise_integration\build\build_all.bat
+-'  1  0  ~\Documents\auro-wwise-plugins_2\src\app\wwise_integration\build\test.bat
+-'  5  80  ~\Documents\auro-wwise-plugins_2\src\app\wwise_integration\build\build_all.bat
+-'  1  0  ~\Documents\auro-wwise-plugins_2\src\app\wwise_integration\build\test.bat
+-'  1  0  ~\Documents\auro-wwise-plugins_2\src\app\wwise_integration\build\build_all.bat
+-'  1  0  ~\Documents\auro-wwise-plugins_2\src\app\wwise_integration\build\test.bat
+-'  5  80  ~\Documents\auro-wwise-plugins_2\src\app\wwise_integration\build\build_all.bat
+-'  1  0  ~\Documents\auro-wwise-plugins_2\src\app\wwise_integration\build\test.bat
+-'  1  0  ~\Documents\auro-wwise-plugins_2\src\app\wwise_integration\build\build_all.bat
+-'  1  0  ~\Documents\auro-wwise-plugins_2\src\app\wwise_integration\build\test.bat
+-'  5  80  ~\Documents\auro-wwise-plugins_2\src\app\wwise_integration\build\build_all.bat
+-'  1  0  ~\Documents\auro-wwise-plugins_2\src\app\wwise_integration\build\test.bat
+-'  1  0  ~\Documents\auro-wwise-plugins_2\src\app\wwise_integration\build\build_all.bat
+-'  1  0  ~\Documents\auro-wwise-plugins_2\src\app\wwise_integration\build\test.bat
+-'  5  80  ~\Documents\auro-wwise-plugins_2\src\app\wwise_integration\build\build_all.bat
+-'  1  0  ~\Documents\auro-wwise-plugins_2\src\app\wwise_integration\build\test.bat
+-'  1  0  ~\Documents\auro-wwise-plugins_2\src\app\wwise_integration\build\build_all.bat
+-'  1  0  ~\Documents\auro-wwise-plugins_2\src\app\wwise_integration\build\test.bat
+-'  5  80  ~\Documents\auro-wwise-plugins_2\src\app\wwise_integration\build\build_all.bat
+-'  1  0  ~\Documents\auro-wwise-plugins_2\src\app\wwise_integration\build\test.bat
+-'  1  0  ~\Documents\auro-wwise-plugins_2\src\app\wwise_integration\build\build_all.bat
+-'  1  0  ~\Documents\auro-wwise-plugins_2\src\app\wwise_integration\build\test.bat
+-'  5  80  ~\Documents\auro-wwise-plugins_2\src\app\wwise_integration\build\build_all.bat
+-'  1  0  ~\Documents\auro-wwise-plugins_2\src\app\wwise_integration\build\test.bat
+-'  1  0  ~\Documents\auro-wwise-plugins_2\src\app\wwise_integration\build\build_all.bat
+-'  1  0  ~\Documents\auro-wwise-plugins_2\src\app\wwise_integration\build\test.bat
+-'  49  0  C:\git\v3-code\API\rakefile.rb
+-'  1  0  C:\git\v3-code\API\rakefile.rb
+-'  1  0  ~\Documents\auro-wwise-plugins_2\build_plugins.bat
+-'  16  0  ~\vimfiles\vimrc
+-'  1  0  ~\vimfiles\vimrc
+-'  64  0  C:\git\auroengine\AuroEngine\V1\CMakeLists.txt
+-'  2  18  C:\git\auroengine\AuroEngine\V1\-MiniBufExplorer-
+-'  55  7  C:\git\auroengine\AuroEngine\V1\CMakeLists.txt
+-'  129  37  C:\git\auroengine\AuroEngine\V1\CMakeLists.txt
+-'  128  4  C:\git\auroengine\AuroEngine\V1\CMakeLists.txt
+-'  98  7  C:\git\auroengine\AuroEngine\V1\CMakeLists.txt
+
+# History of marks within files (newest to oldest):
+
+> ~\Documents\auro-wwise-plugins_2\src\app\wwise_integration\build\premake_wwise_integration.lua
+	"	61	8
+	^	81	49
+	.	81	48
+	+	1	0
+	+	1	9
+	+	2	18
+	+	1	10
+	+	2	27
+	+	1	10
+	+	3	13
+	+	1	11
+	+	5	0
+	+	3	24
+	+	5	0
+	+	6	0
+	+	4	0
+	+	5	50
+	+	1	27
+	+	76	28
+	+	78	58
+	+	78	84
+	+	79	56
+	+	78	85
+	+	80	63
+	+	81	46
+	+	73	6
+	+	73	6
+	+	73	6
+	+	73	6
+	+	73	6
+	+	73	6
+	+	73	6
+	+	73	6
+	+	73	2
+	+	73	6
+	+	73	10
+	+	73	10
+	+	73	10
+	+	73	6
+	+	73	10
+	+	73	10
+	+	73	10
+	+	73	2
+	+	73	6
+	+	73	10
+	+	73	10
+	+	73	10
+	+	73	6
+	+	73	10
+	+	73	10
+	+	73	10
+	+	73	2
+	+	73	6
+	+	73	10
+	+	73	10
+	+	73	10
+	+	73	6
+	+	73	10
+	+	73	10
+	+	73	10
+	+	73	2
+	+	73	6
+	+	73	10
+	+	73	10
+	+	73	10
+	+	73	6
+	+	73	10
+	+	73	10
+	+	73	10
+	+	73	2
+	+	73	0
+	+	82	11
+	+	83	0
+	+	76	16
+	+	77	52
+	+	81	66
+	+	78	109
+	+	79	0
+	+	79	0
+	+	78	62
+	+	78	74
+	+	79	0
+	+	78	74
+	+	1	48
+	+	73	0
+	+	72	0
+	+	76	17
+	+	77	12
+	+	74	4
+	+	75	0
+	+	1	0
+	+	3	0
+	+	77	0
+	+	1	9
+	+	2	19
+	+	1	9
+	+	3	15
+	+	1	0
+	+	76	49
+	+	77	50
+	+	3	6
+	+	7	22
+	+	81	48
+
+> C:\git\v3-code\API\rakefile.rb
+	"	49	0
+
+> ~\Documents\auro-wwise-plugins_2\build_plugins.bat
+	"	1	0
+
+> C:\git\auroengine\AuroEngine\V1\CMakeLists.txt
+	"	64	0
+
+> C:\git\auroengine\AuroEngine\V1\$MYV
+	"	1	0
+
+> C:\git\auroengine\AuroEngine\V1\-MiniBufExplorer-
+	"	1	18
+	.	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+
+> ~\vimfiles\vimrc
+	"	16	0
+	^	16	0
+	.	15	13
+	+	39	0
+	+	38	24
+	+	15	13
+
+> C:\git\auroengine\AuroEngine\V1\cmake\msvs_toolchain.cmake
+	"	28	0
+
+> ~\Documents\auro-wwise-plugins_2\src\app\wwise_integration\README
+	"	2	79
+	^	1	165
+	.	1	164
+	+	1	18
+	+	1	164
+
+> ~\Documents\auro-wwise-plugins_2\src\app\wwise_integration\build\premake_wwise_integration_backup_3.lua
+	"	55	0
+
+> ~\vimfiles\-MiniBufExplorer-
+	"	1	0
+	.	2	0
+	+	2	0
+
+> ~\Documents\auro-wwise-plugins_2\src\app\wwise_integration\build\build_all.bat
+	"	1	0
+
+> ~\Documents\auro-wwise-plugins_2\src\app\wwise_integration\build\-MiniBufExplorer-
+	"	1	0
+	.	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+
+> ~\Documents\auro-wwise-plugins_2\src\app\wwise_integration\build\test.bat
+	"	1	0
